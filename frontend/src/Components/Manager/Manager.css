@@ -1,0 +1,82 @@
+.manager-container {
+        padding: 20px;
+        background-color: #f9fafb;
+      }
+      
+      .header-M {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1d4ed8;
+        color: white;
+        padding: 15px;
+        border-radius: 8px;
+      }
+      
+      .logout-btn {
+        background: #ef4444;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 6px;
+        color: white;
+        cursor: pointer;
+      }
+      
+      .logout-btn:hover {
+        background: #dc2626;
+      }
+      
+      section {
+        background: white;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+      }
+      
+      .request-card {
+        background: #e0e7ff;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+      
+      .actions {
+        margin-top: 10px;
+      }
+      
+      .approve-btn, .reject-btn {
+        padding: 10px 16px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+      }
+      
+      .approve-btn {
+        background: #16a34a;
+      }
+      
+      .approve-btn:hover {
+        background: #15803d;
+      }
+      
+      .reject-btn {
+        background: #dc2626;
+      }
+      
+      .reject-btn:hover {
+        background: #b91c1c;
+      }
+      
+      .manager-ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .manager-ul li {
+        background: #e5e7eb;
+        margin-bottom: 8px;
+        padding: 10px;
+        border-radius: 6px;
+      }

@@ -1,0 +1,70 @@
+.employee-container {
+        padding: 20px;
+        background-color: #f9fafb;
+      }
+      
+      .head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #4f46e5;
+        color: white;
+        padding: 15px;
+        border-radius: 8px;
+      }
+      
+      .logout-btn {
+        background: #ef4444;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 6px;
+        color: white;
+        cursor: pointer;
+      }
+      
+      .logout-btn:hover {
+        background: #dc2626;
+      }
+      
+      section {
+        background: white;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+      }
+      
+      .expense-form input,
+      .expense-form textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+      
+      .expense-form button {
+        background: #4f46e5;
+        color: white;
+        padding: 12px;
+        width: 100%;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      
+      .expense-form button:hover {
+        background: #4338ca;
+      }
+      
+      .employee-ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .employee-ul li {
+        background: #e5e7eb;
+        margin-bottom: 8px;
+        padding: 10px;
+        border-radius: 6px;
+      }
